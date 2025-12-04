@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Downloader 2025</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Firebase CDN -->
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+
+</head>
+<body>
+
+<header>
+  <h1>📥 Video Downloader 2025</h1>
+  <p>Watch • Download • Like • Comment • Share</p>
+</header>
+
+<div class="video-container">
+
+  <!-- VIDEO CARD 1 -->
+  <div class="card">
+    <video controls>
+      <source src="https://www.dropbox.com/scl/fi/m6u6ahox7jfa7cektlp56/Dude.mp4?raw=1" type="video/mp4">
+    </video>
+
+    <button class="like-btn" onclick="likeVideo('video1')">
+      ❤️ Like (<span id="like-video1">0</span>)
+    </button>
+
+    <a class="download-btn"
+      href="https://www.dropbox.com/scl/fi/m6u6ahox7jfa7cektlp56/Dude.mp4?raw=1"
+      download>
+      ⬇ Download Video
+    </a>
+
+    <div class="comments-box">
+      <input id="comment-input-video1" placeholder="Write a comment...">
+      <button onclick="addComment('video1')">Post</button>
+    </div>
+
+    <div id="comments-video1" class="comment-list"></div>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
