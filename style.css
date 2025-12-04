@@ -1,0 +1,79 @@
+body{
+  font-family: Arial;
+  background:#f0f2f5;
+  margin:0;
+  padding:0;
+}
+
+header{
+  background:#2196f3;
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+
+.video-container{
+  max-width:900px;
+  margin:20px auto;
+  padding:10px;
+}
+
+.card{
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  margin-bottom:20px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+video{
+  width:100%;
+  border-radius:10px;
+}
+
+.like-btn, .download-btn{
+  width:100%;
+  display:block;
+  margin-top:10px;
+  padding:12px;
+  font-size:18px;
+  border-radius:8px;
+  font-weight:bold;
+  color:white;
+  text-decoration:none;
+  text-align:center;
+}
+
+.like-btn{
+  background:#e91e63;
+  border:none;
+}
+
+.download-btn{
+  background:#2196f3;
+}
+
+.comments-box{
+  display:flex;
+  margin-top:10px;
+}
+
+.comments-box input{
+  flex:1;
+  padding:10px;
+}
+
+.comments-box button{
+  padding:10px;
+  background:#4caf50;
+  color:white;
+  border:none;
+  border-radius:5px;
+}
+
+.comment-list div{
+  background:#eee;
+  padding:8px;
+  margin-top:5px;
+  border-radius:5px;
+}
